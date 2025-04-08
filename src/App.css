@@ -1,0 +1,46 @@
+.fondo{
+  width: 100vw;
+  height: 100vh;
+  background-color:rgb(182, 182, 182);
+}
+.boton{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  
+}
+.ancho{
+  width: 100%;
+  height: 100%;
+}
+
+
+#Pedido:hover,#almacen:hover{
+  opacity: 0.7;
+}
+#Llenado_de_base:hover{
+  opacity: 0.7;
+}
+#almacen,#pigmento,#Llenado_de_base,#sellado,#Pedido{
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+#pigmento:hover,#sellado:hover{
+  opacity: 0.7;
+}
+#Pedido {
+  transform-origin: center center;
+}
