@@ -1,7 +1,6 @@
 import "./App.css";
 import Mixer from "./assets/mixer.svg?react";
 import { useRef, useEffect } from "react";
-import { animate, createTimeline } from "animejs";
 import { gsap } from "gsap";
 function App() {
   const cubo1Ref = useRef<SVGElement | null>(null);
